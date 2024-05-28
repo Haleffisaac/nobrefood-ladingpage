@@ -153,17 +153,17 @@ footer p {
 
 @media (max-width: 768px) {
   header {
-      flex-direction: column;
       height: auto;
   }
 
   header nav > ul {
-      flex-direction: column;
       align-items: center;
   }
 
   header nav > ul > li {
       margin: 0.5rem 0;
+      font-size: 1.1em;
+      padding: 0 0.4rem;
   }
 
   header {
@@ -182,7 +182,7 @@ footer p {
 
 @media (max-width: 480px) {
   header nav > ul {
-      flex-direction: column;
+      flex-direction: coumn;
   }
 
   header nav > ul > li {
@@ -190,7 +190,7 @@ footer p {
   }
 
   header {
-      height: auto;
+      height: 6rem;
       font-size: 0.7em;
   }
 
